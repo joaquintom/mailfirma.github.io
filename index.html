@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firma Openbiz</title>
     <style>
+
+       
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             margin: 10px;
@@ -16,6 +18,11 @@
             height: 100vh;
             background-color: #f9f9f9;
             gap: 20px; /* Espaciado entre las firmas */
+            
+        }
+
+        .main{
+            padding: 60px;
         }
 
         .signature {
@@ -129,20 +136,38 @@
         .phrase3 {
             grid-column: 1; /* Primera columna */
             grid-row: 2;
-            font-size: 0.8rem; /* Tamaño de la fuente */
+            font-size: 0.7rem; /* Tamaño de la fuente */
             color: #032631;
             font-weight: normal;
             letter-spacing: 7px;
-            margin: -14px 0 0 5px; /* Centra el contenedor horizontalmente */
+            margin: -12px 0 0 5px; /* Centra el contenedor horizontalmente */
             text-align: center; /* Centra el texto dentro del contenedor */
            justify-items: center;
           
         }
 
+        .phrase4 {
+            grid-column: 1; /* Primera columna */
+            grid-row: 2;
+            font-size: 0.8rem; /* Tamaño de la fuente */
+            color: #032631;
+            font-weight: normal;
+            letter-spacing: 7px;
+            margin: -12px 0 0 5px; /* Centra el contenedor horizontalmente */
+            text-align: center; /* Centra el texto dentro del contenedor */
+           justify-items: center;
+            }
 
+            .footer{
+                padding: 30px;
+            }
+        
     </style>
 </head>
 <body>
+
+    <div class="main"></div>
+
     <div class="signature">
         <div class="logo">
             <img src="./images/gif.gif" alt="Openbiz firma logo">
@@ -203,6 +228,31 @@
                 <img width="15px" height="auto" src="./images/logo-in-openbiz-signature.jpg" alt="LinkedIn">
             </a>
         </div>
+    </div>
+
+    <div class="signature">
+        <div class="logo2">
+            <img src="./images/gif.gif" alt="Openbiz firma logo">
+        </div>
+        <div class="divider"></div> <!-- Línea divisora en el centro -->
+        <div class="info">
+            <h1>Julian Drago</h1>
+            <p>Founder & Ceo</p>
+            <a href="https://openbiz.io" target="_blank">openbiz.io</a>
+        </div>
+        <div class="phrase4">Peace of mind</div>
+        <div class="icons">
+            <a href="https://x.com/Openbiz_io" target="_blank">
+                <img width="15px" height="auto" src="./images/logo-x-openbiz-signature.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/company/openbiz-io/" target="_blank">
+                <img width="15px" height="auto" src="./images/logo-in-openbiz-signature.jpg" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+
     </div>
 
 </body>
